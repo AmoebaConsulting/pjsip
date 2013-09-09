@@ -28,7 +28,7 @@
  */
 
 /* Canonical OS name */
-#define PJ_OS_NAME "arm-apple-darwin9"
+#define PJ_OS_NAME "arm-apple-darwin10"
 
 /* Legacy macros */
 /* #undef PJ_WIN32 */

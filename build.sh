@@ -162,6 +162,9 @@ echo "Creating config.h..."
 echo "#define PJ_CONFIG_IPHONE 1 
 #include <pj/config_site_sample.h>" > ${PROJECT_DIR}/pjlib/include/pj/config_site.h
 
+echo "Switching darwin9 to darwin10"
+sed -i 's/darwin9/darwin10/g' ${PROJECT_DIR}/configure-iphone
+
 cd ${PROJECT_DIR}
 
 echo "Building for armv7..."
